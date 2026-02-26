@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOVAJoyas</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins', sans-serif;
+}
+
+body{
+background-color:#000;
+color:white;
+}
+
+header{
+text-align:center;
+padding:40px 20px;
+background:black;
+border-bottom:2px solid gold;
+}
+
+header h1{
+color:gold;
+font-size:40px;
+letter-spacing:3px;
+}
+
+header p{
+margin-top:10px;
+font-weight:300;
+}
+
+.catalogo{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+padding:50px;
+}
+
+.producto{
+background:#111;
+border:1px solid gold;
+border-radius:10px;
+padding:20px;
+text-align:center;
+transition:0.3s;
+}
+
+.producto:hover{
+transform:scale(1.05);
+box-shadow:0 0 15px gold;
+}
+
+.producto img{
+width:100%;
+border-radius:10px;
+}
+
+.producto h3{
+margin:15px 0 10px;
+color:gold;
+}
+
+.precio{
+margin-bottom:15px;
+font-size:18px;
+}
+
+.boton{
+display:inline-block;
+padding:10px 20px;
+background:gold;
+color:black;
+text-decoration:none;
+font-weight:500;
+border-radius:5px;
+transition:0.3s;
+}
+
+.boton:hover{
+background:white;
+}
+
+footer{
+text-align:center;
+padding:20px;
+border-top:2px solid gold;
+margin-top:40px;
+font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>NOVAJoyas</h1>
+<p>Elegancia que brilla contigo</p>
+</header>
+
+<section class="catalogo">
+
+<div class="producto">
+<img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638" alt="Anillo">
+<h3>Anillo Royal</h3>
+<p class="precio">S/ 120</p>
+<a class="boton" href="https://wa.me/51999999999?text=Hola%20quiero%20información%20sobre%20el%20Anillo%20Royal" target="_blank">Consultar</a>
+</div>
+
+<div class="producto">
+<img src="https://images.unsplash.com/photo-1602751584552-8ba73aad10e1" alt="Collar">
+<h3>Collar Elegance</h3>
+<p class="precio">S/ 180</p>
+<a class="boton" href="https://wa.me/51999999999?text=Hola%20quiero%20información%20sobre%20el%20Collar%20Elegance" target="_blank">Consultar</a>
+</div>
+
+<div class="producto">
+<img src="https://images.unsplash.com/photo-1589365278144-c9e705f843ba" alt="Pulsera">
+<h3>Pulsera Gold Shine</h3>
+<p class="precio">S/ 95</p>
+<a class="boton" href="https://wa.me/51999999999?text=Hola%20quiero%20información%20sobre%20la%20Pulsera%20Gold%20Shine" target="_blank">Consultar</a>
+</div>
+
+</section>
+
+<footer>
+© 2026 NOVAJoyas - Todos los derechos reservados
+</footer>
+
+</body>
+</html>
